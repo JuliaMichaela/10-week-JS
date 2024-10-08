@@ -8,6 +8,7 @@ showMessage ();
 
 // Задание 2 часть 2
 
+
 // Задание со звездочкой ***
 
 function calculateTotalPrice(quantity = 2, price = 15000000) {
