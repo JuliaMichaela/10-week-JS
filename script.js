@@ -10,9 +10,11 @@ showMessage ();
 
 
 // Задание со звездочкой ***
-
+const buttonPrice = document.getElementById('buttonPrice');
 function calculateTotalPrice(quantity = 2, price = 15000000) {
     let result = quantity * price;
-    alert (`Стоимость покупки: ${result.toLocaleString('ru-RU')} рублей`)
+    
+    buttonPrice.textContent= 'Стоимость покупки: ${result.toLocaleString('ru-RU')} рублей'
+
 }
 calculateTotalPrice ()
