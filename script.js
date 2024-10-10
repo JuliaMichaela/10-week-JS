@@ -9,8 +9,6 @@ showMessage ();
 // Задание 2 часть 2
 
 const image = document.getElementById('image');
-const nextButton = document.getElementById('next');
-const previousButton = document.getElementById('previous');
 
 function showNext () {
     image.src = './assets/images/img2.jpeg';
@@ -22,7 +20,6 @@ function showPrevious () {
 
 
 // Задание со звездочкой ***
-const buttonPrice = document.getElementById('buttonPrice');
 const contentPrice = document.getElementById ('content');
 
 function calculateTotalPrice(quantity = 2, price = 15000000) {
