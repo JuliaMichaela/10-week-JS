@@ -7,14 +7,25 @@ function showMessage () {
 showMessage ();
 
 // Задание 2 часть 2
+const image = document.getElementById('image');
+const nextButton = document.getElementById('next');
+const previousButton = document.getElementById('previous');
+
+function showNext () {
+    image.src = './assets/images/img2.jpeg'
+}
+function showPrevious () {
+    image.src = './assets/images/img1.jpg'
+}
+
 
 
 // Задание со звездочкой ***
-const buttonPrice = document.getElementById('buttonPrice');
-function calculateTotalPrice(quantity = 2, price = 15000000) {
-    let result = quantity * price;
-    
-    buttonPrice.textContent= 'Стоимость покупки: ${result.toLocaleString('ru-RU')} рублей'
+// const buttonPrice = document.getElementById('buttonPrice');
+// function calculateTotalPrice(quantity = 2, price = 15000000) {
+//     let result = quantity * price;
 
-}
-calculateTotalPrice ()
+//     buttonPrice.textContent= '`Стоимость покупки: ${result.toLocaleString('ru-RU')} рублей`'
+
+// }
+// calculateTotalPrice ()

@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div class="body">
         <h2>Gallery</h2>
         <div>
-            <img src="./assets/images/img1.jpg" alt="venice">
+            <img  id="image" src="./assets/images/img1.jpg" alt="venice">
         </div>
         <div>
-            <button>Previous</button>
-            <button>Next</button>
+            <button id="Previous" onclick="showNext ()">Previous</button>
+            <button id="Next" onclick="showPrevious ()">Next</button>
         </div>
-    </div>
 
-    <div>
-        <button id="buttonPrice" onclick="calculateTotalPrice ()">Price</button>
-    </div>
-    <div id="">
 
-    </div>
+        <div>
+            <button id="buttonPrice" onclick="calculateTotalPrice ()">Price</button>
+        </div>
+</div>
+
     
+
     
 
 
