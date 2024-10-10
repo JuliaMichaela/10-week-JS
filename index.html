@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,26 +9,21 @@
 </head>
 <body>
     <div class="body">
-        <h2>Gallery</h2>
+        <h2>Галерея</h2>
         <div>
             <img  id="image" src="./assets/images/img1.jpg" alt="venice">
         </div>
         <div>
-            <button id="Previous" onclick="showNext ()">Previous</button>
-            <button id="Next" onclick="showPrevious ()">Next</button>
+            <button id="Previous" onclick="showPrevious ()">Назад</button>
+            <button id="Next" onclick="showNext ()">Вперед</button>
         </div>
 
 
         <div>
-            <button id="buttonPrice" onclick="calculateTotalPrice ()">Price</button>
+            <button id="buttonPrice" onclick="calculateTotalPrice ()">Узнать стоимость</button>
         </div>
+        <div id="content"></div>
 </div>
-
-    
-
-    
-
-
     <script src="./script.js"></script>
 </body>
 </html>

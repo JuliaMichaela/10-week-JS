@@ -5,7 +5,7 @@
 }
 
 h2 {
-    color: blue;
+    color: rgb(23, 88, 229);
 }
 #image {
     width: 400px;
@@ -14,4 +14,12 @@ h2 {
 
 button {
     margin: 30px;
+    padding: 10px;
+    background-color:rgb(23, 88, 229);
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+#buttonPrice {
+    background-color: black;
 }
